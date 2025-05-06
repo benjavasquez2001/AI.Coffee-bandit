@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-from bandit_model import EpsilonGreedyBandit
+
+from models.bandit_model import EpsilonGreedyBandit
 
 
 # Initialize session state for bandit model and results
